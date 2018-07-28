@@ -1,7 +1,5 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import App from './App'
-import registerServiceWorker from './registerServiceWorker'
+import './style/reboot.css'
+import './style'
+import App from './components/app'
 
-ReactDOM.render(<App />, document.getElementById('root'))
-registerServiceWorker()
+export default App

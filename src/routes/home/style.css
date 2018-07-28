@@ -1,0 +1,74 @@
+.home {
+  padding: 56px 20px;
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*  */
+
+.main {
+  max-width: 66.666666666%;
+}
+
+.main .section {
+}
+
+.main .section ul {
+  padding-left: 0;
+}
+
+.main .section ul li {
+  display: inline-block;
+  background: #f0f0f0;
+  border-radius: 3px;
+  margin: 0 8px 8px 0;
+  padding: 4px 8px;
+}
+
+/*  */
+
+.sidebar {
+  float: right;
+}
+
+/*  */
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.card > *:last-child {
+  margin-bottom: 0;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card ul {
+  padding-left: 0;
+  text-indent: 0;
+}
+
+.card ul li {
+  margin-bottom: 8px;
+  list-style-type: none;
+  font-size: 14px;
+}
+
+.card ul li:last-child {
+  margin-bottom: 0;
+}
+
+.card ul li a {
+  text-decoration: none;
+}
+
+.card ul li span {
+  display: block;
+}
